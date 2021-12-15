@@ -1,0 +1,16 @@
+U Web stranica datoteci se nalaze Login.php, Dobrodosli.php,search.php i obrana_search.php. U xss datoteci se nalaze cookies.php i log.txt.
+Login.php je stranica s obrascem za logiranje. Nakon unosa korisničkog imena i lozinke preusmjerava se na stranicu Dobrodosli.php. Na njoj se postavlja kolačić s korisničkim imenom i lozinkom ako je bilo odabrano da ih se želi zapamtiti. Search.php je jednostavan obrazac za pretraživanje koji ništa ne nađe. Stranica služi za prikaz XSS napada.
+Cookies.php je zlonamjerna skripta, a u log.txt se spremaju ukradeni podaci.
+
+Neobranjena stranica
+1. Otvoriti stranicu localhost/z/Login.php. Upisati username i lozinku te označit Remeber me (da bi se zapisali username i lozinka u kolačiće). 
+2.Kopirat link koji se nalazi u cookies.php (1. zakomentiran link na kraju).
+3.Link zalijepiti u adresnu traku.
+4.Otići u datoteku xss i otvoriti log.txt. U nju se zapisuju ukradeni kolačići.
+
+Obranjena stranica
+1. Otići u cookies.php i 6 liniju koda zamijeniti s: header("Location:https://localhost/z/obrana_search.php");
+Obrana_search.php ima mehanizam zaštite od krađe kolačića preko reflected XSS napada.
+2. Kopirat link koji se nalazi u cookies.php (2. zakomentiran link na kraju) ili iz pdf-a stranica 55.
+3.Link zalijepiti u adresnu traku.
+4.Na stranici obrana_search.php će zbog mjera obrane ispisat zlonamjerna skripta. Time se želi ukazat da napad nije uspio jer inače bi se ispisalo Nema rezultata.
